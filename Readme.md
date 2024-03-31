@@ -29,14 +29,14 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 
 
 **Installation**
-PATH: Sidebar > Modules > Module manager > Upload a module > Select File >
+**PATH: Sidebar > Modules > Module manager > Upload a module > Select File >**
 
 1. You need to download the zip file from this github repo extract it.
 2. Then open the extracted folder and find a folder named prestashop-master. Then rename it to xaigate and compress it.
 3. Now go to Prestashop's admin panel sidebar section.
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation.png)
 4. You’ll get two choices “Module manager” and “Module Catalog” under the Module section.
-5. Click “Module Manager”
+5. Click “Module Manager”.
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-2.png)
 6. A window will be opened which will show the message "Upload a module".
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-3.png)
@@ -45,7 +45,7 @@ PATH: Sidebar > Modules > Module manager > Upload a module > Select File >
 
 
 **Configuration of Plugin**
-PATH: Sidebar > Modules > Module manager > Other section > Coinremitter plugin > Configure > SAVE
+**PATH: Sidebar > Modules > Module manager > Other section > Coinremitter plugin > Configure > SAVE**
 
 1. Go to the sidebar of Prestashop’s admin panel.
 2. Click the “Modules” option and select Module Manager.
