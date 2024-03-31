@@ -43,12 +43,12 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
    
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-2.png)
 
-8. A window will be opened which will show the message "Upload a module".
+7. A window will be opened which will show the message "Upload a module".
    
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-3.png)
 
-10. Now select the xaigate.zip file and upload it.
-11. The plugin installation is completed successfully.
+8. Now select the xaigate.zip file and upload it.
+9. The plugin installation is completed successfully.
 
 
 **Configuration of Plugin**
@@ -61,8 +61,8 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 4. You’ll find a "Xaigate" plugin there.
    
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-4.png)
-6. Click “Configure” at the end of the same line.
-7. The configure settings page will be opened.
+5. Click “Configure” at the end of the same line.
+6. The configure settings page will be opened.
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-5.png)
     You will need to fill up the details according to your preferences here:
 * APIKey: You'll need to obtain an API Key from your Xaigate project settings. Access the Credential page of your Xaigate dashboard to retrieve your API Key: https://wallet.xaigate.com/merchant/credential
