@@ -2,7 +2,7 @@
 <module>
 	<name>xaigate</name>
 	<displayName><![CDATA[XaiGate Payment System]]></displayName>
-	<version><![CDATA[1.2.2]]></version>
+	<version><![CDATA[2.1.2]]></version>
 	<description><![CDATA[XAIGATE - Cryptocurrency Payment Gateway]]></description>
 	<author><![CDATA[XaiGate]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>

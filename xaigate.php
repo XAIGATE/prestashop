@@ -36,7 +36,7 @@ class Xaigate extends PaymentModule
     {
         $this->name = 'xaigate';
         $this->tab = 'payments_gateways';
-        $this->version = '1.2.2';
+        $this->version = '2.1.2';
         $this->author = 'XaiGate';
         $this->need_instance = 0;
         $this->controllers = ['payment', 'validation', 'orderstate'];
