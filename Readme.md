@@ -29,28 +29,37 @@ Supported almost all cryptocurrencies on: Ethereum, Binance Smart Chain and TRON
 
 
 **Installation**
+
 **PATH: Sidebar > Modules > Module manager > Upload a module > Select File >**
 
 1. You need to download the zip file from this github repo extract it.
 2. Then open the extracted folder and find a folder named prestashop-master. Then rename it to xaigate and compress it.
 3. Now go to Prestashop's admin panel sidebar section.
+   
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation.png)
-4. You’ll get two choices “Module manager” and “Module Catalog” under the Module section.
-5. Click “Module Manager”.
+
+5. You’ll get two choices “Module manager” and “Module Catalog” under the Module section.
+6. Click “Module Manager”.
+   
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-2.png)
-6. A window will be opened which will show the message "Upload a module".
+
+7. A window will be opened which will show the message "Upload a module".
+   
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-3.png)
-7. Now select the xaigate.zip file and upload it.
-8. The plugin installation is completed successfully.
+
+8. Now select the xaigate.zip file and upload it.
+9. The plugin installation is completed successfully.
 
 
 **Configuration of Plugin**
+
 **PATH: Sidebar > Modules > Module manager > Other section > Coinremitter plugin > Configure > SAVE**
 
 1. Go to the sidebar of Prestashop’s admin panel.
 2. Click the “Modules” option and select Module Manager.
 3. Now, you will need to locate the "Other" section in the module manager list.
 4. You’ll find a "Xaigate" plugin there.
+   
 ![Setup Xaigate’s PrestaShop plugin](https://www.xaigate.com/wp-content/uploads/2024/03/xaigate-prestashop-plugin-installation-4.png)
 5. Click “Configure” at the end of the same line.
 6. The configure settings page will be opened.
