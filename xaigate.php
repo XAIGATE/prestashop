@@ -49,6 +49,7 @@ class Xaigate extends PaymentModule
         parent::__construct();
 
         $this->displayName = $this->l('XaiGate Payment System');
+        $this->module_key = 'af12951c1d29113d8bd5dc8eca90bdb6';
         $this->description = $this->l('XAIGATE - Cryptocurrency Payment Gateway');
 
         $this->ps_versions_compliancy = ['min' => '1.7', 'max' => _PS_VERSION_];
