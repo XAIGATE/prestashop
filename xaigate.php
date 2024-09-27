@@ -71,8 +71,8 @@ class Xaigate extends PaymentModule
         Configuration::updateValue('XAIGATE_ID_STATE_AFTER_CREATE', 3);
         Configuration::updateValue('XAIGATE_ID_STATE_SUCCESS', 2);
         Configuration::updateValue('XAIGATE_ID_STATE_FAIL', 8);
-        Configuration::updateValue('XAIGATE_SUCCESSFUL_URL', '');
-        Configuration::updateValue('XAIGATE_UNSUCCESSFUL_URL', '');
+        // Configuration::updateValue('XAIGATE_SUCCESSFUL_URL', '');
+        // Configuration::updateValue('XAIGATE_UNSUCCESSFUL_URL', '');
 
         return parent::install() && $this->registerHook('header') && $this->registerHook('displayBackOfficeHeader') && $this->registerHook('paymentOptions') && $this->registerHook('displayPaymentReturn');
     }
@@ -84,8 +84,8 @@ class Xaigate extends PaymentModule
         Configuration::deleteByName('XAIGATE_ID_STATE_AFTER_CREATE');
         Configuration::deleteByName('XAIGATE_ID_STATE_SUCCESS');
         Configuration::deleteByName('XAIGATE_ID_STATE_FAIL');
-        Configuration::deleteByName('XAIGATE_SUCCESSFUL_URL', '');
-        Configuration::deleteByName('XAIGATE_UNSUCCESSFUL_URL', '');
+        // Configuration::deleteByName('XAIGATE_SUCCESSFUL_URL', '');
+        // Configuration::deleteByName('XAIGATE_UNSUCCESSFUL_URL', '');
         return parent::uninstall();
     }
 
@@ -193,18 +193,18 @@ class Xaigate extends PaymentModule
                             'id' => 'id_order_state',
                         ],
                     ],
-                    [
-                        'col' => 3,
-                        'type' => 'text',
-                        'name' => 'XAIGATE_SUCCESSFUL_URL',
-                        'label' => $this->l('Successful URL'),
-                    ],
-                    [
-                        'col' => 3,
-                        'type' => 'text',
-                        'name' => 'XAIGATE_UNSUCCESSFUL_URL',
-                        'label' => $this->l('Unsuccessful URL'),
-                    ],
+                    // [
+                    //     'col' => 3,
+                    //     'type' => 'text',
+                    //     'name' => 'XAIGATE_SUCCESSFUL_URL',
+                    //     'label' => $this->l('Successful URL'),
+                    // ],
+                    // [
+                    //     'col' => 3,
+                    //     'type' => 'text',
+                    //     'name' => 'XAIGATE_UNSUCCESSFUL_URL',
+                    //     'label' => $this->l('Unsuccessful URL'),
+                    // ],
                 ],
                 'submit' => [
                     'title' => $this->l('Save'),
@@ -224,8 +224,8 @@ class Xaigate extends PaymentModule
             'XAIGATE_ID_STATE_AFTER_CREATE' => Configuration::get('XAIGATE_ID_STATE_AFTER_CREATE'),
             'XAIGATE_ID_STATE_SUCCESS' => Configuration::get('XAIGATE_ID_STATE_SUCCESS'),
             'XAIGATE_ID_STATE_FAIL' => Configuration::get('XAIGATE_ID_STATE_FAIL'),
-            'XAIGATE_SUCCESSFUL_URL' => Configuration::get('XAIGATE_SUCCESSFUL_URL'),
-            'XAIGATE_UNSUCCESSFUL_URL' => Configuration::get('XAIGATE_UNSUCCESSFUL_URL'),
+            // 'XAIGATE_SUCCESSFUL_URL' => Configuration::get('XAIGATE_SUCCESSFUL_URL'),
+            // 'XAIGATE_UNSUCCESSFUL_URL' => Configuration::get('XAIGATE_UNSUCCESSFUL_URL'),
         ];
     }
 

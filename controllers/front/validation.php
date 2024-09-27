@@ -100,8 +100,8 @@ class XaigateValidationModuleFrontController extends ModuleFrontController
             'email' => $customer->email,
             'apiKey' => Configuration::get('XAIGATE_API_KEY'),
             'notifyUrl' => $this->context->link->getModuleLink($module_name, 'pscallback', [], true),
-            'successUrl' => Configuration::get('XAIGATE_SUCCESSFUL_URL'),
-            'failUrl' => Configuration::get('XAIGATE_UNSUCCESSFUL_URL'),
+            // 'successUrl' => Configuration::get('XAIGATE_SUCCESSFUL_URL'),
+            // 'failUrl' => Configuration::get('XAIGATE_UNSUCCESSFUL_URL'),
             'description' => implode(',', $description),
         ];
 
