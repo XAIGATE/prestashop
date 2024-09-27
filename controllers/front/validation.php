@@ -69,7 +69,7 @@ class XaigateValidationModuleFrontController extends ModuleFrontController
 
         $secure_key = Context::getContext()->customer->secure_key;
 
-        $module_name = $this->module->displayName;
+        $module_name = $this->module->name;
         $currency_id = (int) Context::getContext()->currency->id;
         $permitted_currency = ['USD', 'RUB', 'EUR', 'GBP'];
 
@@ -92,6 +92,13 @@ class XaigateValidationModuleFrontController extends ModuleFrontController
         }
 
         $is_currency = in_array(Context::getContext()->currency->iso_code, $permitted_currency);
+
+        $success_url = $this->context->link->getPageLink('order-confirmation', null, null, [
+            'id_cart' => $cart->id,
+            'id_module' => $this->module->id,
+            'key' => $customer->secure_key,
+        ]);
+
         $data_request = [
             'shopName' => Configuration::get('XAIGATE_SHOP_NAME'),
             'amount' => number_format($amount, 2, '.', ''),
@@ -100,7 +107,7 @@ class XaigateValidationModuleFrontController extends ModuleFrontController
             'email' => $customer->email,
             'apiKey' => Configuration::get('XAIGATE_API_KEY'),
             'notifyUrl' => $this->context->link->getModuleLink($module_name, 'pscallback', [], true),
-            // 'successUrl' => Configuration::get('XAIGATE_SUCCESSFUL_URL'),
+            'successUrl' => $success_url,
             // 'failUrl' => Configuration::get('XAIGATE_UNSUCCESSFUL_URL'),
             'description' => implode(',', $description),
         ];
